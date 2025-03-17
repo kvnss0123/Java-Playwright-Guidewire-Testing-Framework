@@ -1,0 +1,19 @@
+searchButton:
+  locator: "#search-button"
+  type: "button"
+  metadata: "Primary search button for businessowners module"
+
+searchInput:
+  locator: "#search-input"
+  type: "input"
+  metadata: "Main search input field"
+
+policyTable:
+  locator: ".policy-table"
+  type: "table"
+  metadata: "Table displaying policy information"
+
+createButton:
+  locator: "#create-policy"
+  type: "button"
+  metadata: "Button to create a new policy"

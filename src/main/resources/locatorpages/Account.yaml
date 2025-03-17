@@ -1,0 +1,94 @@
+createNewAccountButton:
+  locator: "div[id=NewAccount-NewAccountScreen-NewAccountButton] div[role=button]"
+  type: "button"
+  metadata: "Button to initiate new account creation"
+
+personButton:
+  locator: "div[id*=NewAccount_Person] div[role=menuitem]"
+  type: "menuitem"
+  metadata: "Menu option to select a person account"
+
+firstNameField:
+  locator: "input[name*=InputSet-FirstName]"
+  type: "input"
+  metadata: "Input field for first name"
+
+lastNameField:
+  locator: "input[name*=InputSet-LastName]"
+  type: "input"
+  metadata: "Input field for last name"
+
+dateOfBirthField:
+  locator: "input[name*=DateOfBirth]"
+  type: "input"
+  metadata: "Date of birth input field"
+
+genderDropdown:
+  locator: "select[name*=-gender]"
+  type: "dropdown"
+  metadata: "Dropdown to select gender"
+
+maritalStatusDropdown:
+  locator: "select[name*=-MaritalStatus]"
+  type: "dropdown"
+  metadata: "Dropdown to select marital status"
+
+primaryPhoneDropdown:
+  locator: "select[name*=-PrimaryPhone]"
+  type: "dropdown"
+  metadata: "Dropdown to select the primary phone type"
+
+mobilePhoneField:
+  locator: "input[name*=CellPhone]"
+  type: "input"
+  metadata: "Mobile phone number input field"
+
+primaryEmailField:
+  locator: "input[name*=EmailAddress1]"
+  type: "input"
+  metadata: "Primary email input field"
+
+addressLine1Field:
+  locator: "input[name*=AddressLine1]"
+  type: "input"
+  metadata: "Address Line 1 input field"
+
+cityField:
+  locator: "input[name*=City]"
+  type: "input"
+  metadata: "City input field"
+
+stateDropdown:
+  locator: "select[name*=State]"
+  type: "dropdown"
+  metadata: "Dropdown to select state"
+
+countryDropdown:
+  locator: "select[name*=Country]"
+  type: "dropdown"
+  metadata: "Dropdown to select country"
+
+zipCodeField:
+  locator: "input[name*=PostalCode]"
+  type: "input"
+  metadata: "Zip/Postal code input field"
+
+addressTypeDropdown:
+  locator: "select[name*=AddressType]"
+  type: "dropdown"
+  metadata: "Dropdown to select address type"
+
+organizationField:
+  locator: "input[name=CreateAccount-CreateAccountScreen-CreateAccountDV-ProducerSelectionInputSet-Producer]"
+  type: "input"
+  metadata: "Organization input field"
+
+searchOrganizationIcon:
+  locator: "div[id*=Producer-SelectOrganization] span"
+  type: "span"
+  metadata: "Search organizations based on the input provided"
+
+producerCodeDropdown:
+  locator: "select[name*=ProducerCode]"
+  type: "dropdown"
+  metadata: "Dropdown to select producer code"

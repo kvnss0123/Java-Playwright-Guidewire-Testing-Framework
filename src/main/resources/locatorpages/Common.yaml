@@ -1,0 +1,39 @@
+usernameField:
+  locator: "input[name=Login-LoginScreen-LoginDV-username]"
+  type: "input"
+  metadata: "Username input field on login screen"
+
+passwordField:
+  locator: "input[name=Login-LoginScreen-LoginDV-password]"
+  type: "input"
+  metadata: "Password input field on login screen"
+
+loginButton:
+  locator: "div[id=Login-LoginScreen-LoginDV-submit] div[role=button]"
+  type: "button"
+  metadata: "Login button for submitting credentials"
+
+actionsButton:
+  locator: "#Desktop-DesktopMenuActions div[role=button]"
+  type: "button"
+  metadata: "Main actions button on the home page"
+
+newAccountButton:
+  locator: "div[id*=DesktopMenuActions_NewAccount] div[role=menuitem]"
+  type: "menuitem"
+  metadata: "Button to create a new account"
+
+searchButton:
+  locator: "div[id*=SearchLinksInputSet-Search]"
+  type: "button"
+  metadata: "Primary search button"
+
+updateButton:
+  locator: "div[id*='Update'] div[role=button]"
+  type: "button"
+  metadata: "Update button for modifying details"
+
+noMatchingResultsMsg:
+  locator: "#NewAccount-NewAccountScreen-_msgs-0-0"
+  type: "message"
+  metadata: "Message displayed when no matching results are found"

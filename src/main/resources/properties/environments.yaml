@@ -1,0 +1,9 @@
+environments:
+  CLOCK2:
+    url: "https://gwdemo.ey.com/pc/PolicyCenter.do"
+    username: "su"
+    password: "gw"
+  DEV:
+    url: "https://gwdemo.ey.com/pc/PolicyCenter.do"
+    username: "su"
+    password: "gw"
